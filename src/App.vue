@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <vfor/>
-    <vfor1/>
-    <vif/>
+    <!-- <vfor/> -->
+    <!-- <vfor1/> -->
+    <!-- <vif/> -->
+    <von/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import vfor from './components/vfor'  //引入组件
 import vfor1 from './components/vfor1'
 import vif from './components/vif'
+import von from './components/von'
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     vfor,
     vfor1,
     vif,
+    von,
   }
 }
 </script>
