@@ -4,7 +4,8 @@
     <!-- <vfor/> -->
     <!-- <vfor1/> -->
     <!-- <vif/> -->
-    <von/>
+    <!-- <von/> -->
+    <vmodel/>
   </div>
 </template>
 
@@ -13,6 +14,8 @@ import vfor from './components/vfor'  //引入组件
 import vfor1 from './components/vfor1'
 import vif from './components/vif'
 import von from './components/von'
+import vmodel from './components/vmodel'
+
 
 export default {
   name: 'App',
@@ -21,6 +24,8 @@ export default {
     vfor1,
     vif,
     von,
+    vmodel,
+
   }
 }
 </script>
