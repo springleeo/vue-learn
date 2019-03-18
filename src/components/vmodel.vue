@@ -9,6 +9,14 @@
     <span>multiline message is:</span>
     <p style="white-space: pre-line;">{{ msg }}</p>
     <textarea v-model="msg" cols="30" rows="10" placeholder="add multiline message"></textarea>
+    <p>
+      <input type="radio" v-model="checked">
+      <label for="radio">{{checked}}</label>
+    </p>
+    <p>
+      <input type="checkbox" v-model="checked">
+      <label for="checkbox">{{checked}}</label>
+    </p>
   </div>
 </template>
 
@@ -16,7 +24,10 @@
 export default {
   name: "vmodel",
   data() {
-    return { msg: '' }
+    return {
+      msg: '',
+      checked: true
+    }
   }
 }
 </script>
