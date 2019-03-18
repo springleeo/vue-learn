@@ -5,17 +5,19 @@
     <p v-html="hello"></p>
     <p v-text="hello"></p>
     <p v-bind:title="props">props</p>
+    <p v-for="item in items"></p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
-  data () {
+  data() {
     return {
       msg: 'Welcome to Your Vue.js App',
       hello: '<p>hello</p>',
-      props:'props'
+      props: 'props',
+      items: ['1,2,3']
     }
   }
 }
@@ -23,7 +25,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 ul {
@@ -37,10 +40,10 @@ li {
 a {
   color: #42b983;
 }
-.msg{
-    color: red;
+.msg {
+  color: red;
 }
-#func{
-  color: red; 
+#func {
+  color: red;
 }
 </style>
