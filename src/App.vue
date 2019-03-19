@@ -6,6 +6,7 @@
     <!-- <vif/> -->
     <!-- <von/> -->
     <vmodel/>
+    <event/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import vfor1 from './components/vfor1'
 import vif from './components/vif'
 import von from './components/von'
 import vmodel from './components/vmodel'
+import event from './components/event'
 
 
 export default {
@@ -25,6 +27,7 @@ export default {
     vif,
     von,
     vmodel,
+    event
 
   }
 }
