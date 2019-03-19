@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <!-- <vfor/> -->
-    <!-- <vfor1/> -->
-    <!-- <vif/> -->
-    <!-- <von/> -->
+    <!-- <vfor/>
+    <vfor1/>
+    <vif/>
+    <von/>
     <vmodel/>
-    <event/>
+    <event/>-->
+    <propsparent/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import vif from './components/vif'
 import von from './components/von'
 import vmodel from './components/vmodel'
 import event from './components/event'
+import propsparent from './components/props_parent'
 
 
 export default {
@@ -27,7 +29,8 @@ export default {
     vif,
     von,
     vmodel,
-    event
+    event,
+    propsparent
 
   }
 }
