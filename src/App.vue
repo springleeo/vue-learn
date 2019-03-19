@@ -6,8 +6,9 @@
     <vif/>
     <von/>
     <vmodel/>
-    <event/>-->
-    <propsparent/>
+    <event/>
+    <propsparent/>-->
+    <emitparent/>
   </div>
 </template>
 
@@ -19,7 +20,7 @@ import von from './components/von'
 import vmodel from './components/vmodel'
 import event from './components/event'
 import propsparent from './components/props_parent'
-
+import emitparent from './components/emit_parent'
 
 export default {
   name: 'App',
@@ -30,7 +31,8 @@ export default {
     von,
     vmodel,
     event,
-    propsparent
+    propsparent,
+    emitparent
 
   }
 }
