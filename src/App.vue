@@ -10,8 +10,9 @@
     <propsparent/>
     <emitparent/>
     <slotParent/>
-    <compKeepBig/>-->
-    <anim></anim>
+    <compKeepBig/>
+    <anim></anim>-->
+    <axiosGet></axiosGet>
   </div>
 </template>
 
@@ -27,7 +28,7 @@ import emitparent from './components/emit_parent'
 import slotParent from './components/slotParent'
 import compKeepBig from './components/compKeepBig'
 import anim from './components/anim'
-
+import axiosGet from './components/axiosGet'
 
 export default {
   name: 'App',
@@ -42,7 +43,8 @@ export default {
     emitparent,
     slotParent,
     compKeepBig,
-    anim
+    anim,
+    axiosGet
   }
 }
 </script>
