@@ -1,7 +1,8 @@
 <template>
-  <div>父组件：
+  <div>父->子：
     <!-- 子组件的key，在父组件中当做一个自定义事件 -->
-    <son @sendmsg="getMsg"/>
+    <input type="text" v-model="age" placeholder="input age">
+    <son @sendmsg="getMsg" :age="getNum"/>
     {{info}}
   </div>
 </template>
@@ -12,11 +13,17 @@ export default {
   name: 'parent',
   data() {
     return {
-      info: ''
+      info: '',
+      age: '',
     }
   },
   components: {
     son
+  },
+  computed: {
+    getNum() {
+      return this.age - 0
+    }
   },
   methods: {
     getMsg(data) {
