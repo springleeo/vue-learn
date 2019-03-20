@@ -8,8 +8,9 @@
     <vmodel/>
     <event/>
     <propsparent/>
-    <emitparent/>-->
-    <slotParent/>
+    <emitparent/>
+    <slotParent/>-->
+    <compKeepBig/>
   </div>
 </template>
 
@@ -23,6 +24,8 @@ import event from './components/event'
 import propsparent from './components/props_parent'
 import emitparent from './components/emit_parent'
 import slotParent from './components/slotParent'
+import compKeepBig from './components/compKeepBig'
+
 
 export default {
   name: 'App',
@@ -35,7 +38,8 @@ export default {
     event,
     propsparent,
     emitparent,
-    slotParent
+    slotParent,
+    compKeepBig
 
   }
 }
