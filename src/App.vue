@@ -9,8 +9,9 @@
     <event/>
     <propsparent/>
     <emitparent/>
-    <slotParent/>-->
-    <compKeepBig/>
+    <slotParent/>
+    <compKeepBig/>-->
+    <anim></anim>
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import propsparent from './components/props_parent'
 import emitparent from './components/emit_parent'
 import slotParent from './components/slotParent'
 import compKeepBig from './components/compKeepBig'
+import anim from './components/anim'
 
 
 export default {
@@ -39,8 +41,8 @@ export default {
     propsparent,
     emitparent,
     slotParent,
-    compKeepBig
-
+    compKeepBig,
+    anim
   }
 }
 </script>
