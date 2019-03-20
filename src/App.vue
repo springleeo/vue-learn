@@ -7,8 +7,9 @@
     <von/>
     <vmodel/>
     <event/>
-    <propsparent/>-->
-    <emitparent/>
+    <propsparent/>
+    <emitparent/>-->
+    <slotParent/>
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import vmodel from './components/vmodel'
 import event from './components/event'
 import propsparent from './components/props_parent'
 import emitparent from './components/emit_parent'
+import slotParent from './components/slotParent'
 
 export default {
   name: 'App',
@@ -32,7 +34,8 @@ export default {
     vmodel,
     event,
     propsparent,
-    emitparent
+    emitparent,
+    slotParent
 
   }
 }
