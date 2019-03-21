@@ -11,8 +11,9 @@
     <emitparent/>
     <slotParent/>
     <compKeepBig/>
-    <anim></anim>-->
-    <axiosGet></axiosGet>
+    <anim></anim>
+    <axiosGet></axiosGet>-->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -30,6 +31,7 @@ import compKeepBig from './components/compKeepBig'
 import anim from './components/anim'
 import axiosGet from './components/axiosGet'
 
+
 export default {
   name: 'App',
   components: {
@@ -44,7 +46,7 @@ export default {
     slotParent,
     compKeepBig,
     anim,
-    axiosGet
+    axiosGet,
   }
 }
 </script>
