@@ -11,7 +11,7 @@ export default new VueRouter({
         component: routers
     },
     {
-        path: '/router',
+        path: '/hello',
         component: routers1
     }
     ]
