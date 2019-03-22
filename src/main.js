@@ -14,5 +14,5 @@ new Vue({  //通过new来创建vue实例
   el: '#app', //绑定一个元素，app的根视图
   components: { App }, //创建组件名字
   template: '<App/>', //加载视图
-  router
+  router //注入
 })

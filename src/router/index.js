@@ -1,20 +1,23 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import routers from '../components/routers'
-import routers1 from '../components/routers1'
+import Index from '@/components/index'
+import Course from '@/components/course'
 
 
 Vue.use(VueRouter)
 export default new VueRouter({
-    routes: [{
+    routes: [
+        {
         path: '/',
-        component: routers
+        name:'index',
+        component: Index
     },
     {
-        path: '/hello',
-        component: routers1
+        path: '/course',
+        name:'course',
+        component: Course
     }
-    ]
+]
 });
 
 

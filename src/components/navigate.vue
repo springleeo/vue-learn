@@ -1,31 +1,29 @@
 <template>
   <div>
     <ul>
+      <!-- 使用 router-link 组件来导航. -->
+      <!-- 通过传入 `to` 属性指定链接. -->
+      <!-- <router-link> 默认会被渲染成一个 `<a>` 标签 -->
       <li>
-        <!-- 使用 router-link 组件来导航. -->
-        <!-- 通过传入 `to` 属性指定链接. -->
-        <!-- <router-link> 默认会被渲染成一个 `<a>` 标签 -->
-        <router-link :to="urlData.url">routers</router-link>
+        <router-link :to="urlData.urlRoot">首页</router-link>
       </li>
       <li>
-        <router-link :to="urlData.url1">routers1</router-link>
+        <router-link :to="urlData.urlCourse">课程</router-link>
       </li>
+      <li>专家</li>
     </ul>
   </div>
 </template>
 
 <script>
-import routers from '../components/routers'
-import routers1 from '../components/routers1'
-
 export default {
   name: 'navigate',
   data() {
     return {
-        urlData:{
-          url:'/',
-          url1:'/hello',
-        }
+      urlData: {
+        urlRoot: '/',
+        urlCourse: '/course',
+      }
     }
   },
   components: {
@@ -35,12 +33,17 @@ export default {
 </script>
 
 <style scoped>
+div {
+  width: 100%;
+  height: 50px;
+  background: #f1f1f1;
+}
 ul {
   list-style: none;
 }
-
-ul li {
-  display: inline;
+li {
+  float: left;
+  margin: 10px 10px;
 }
 </style>
 
