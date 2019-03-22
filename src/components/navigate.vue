@@ -10,7 +10,9 @@
       <li>
         <router-link :to="urlData.urlCourse">课程</router-link>
       </li>
-      <li>专家</li>
+      <li>
+        <router-link :to="urlData.urlMaster">专家</router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -23,6 +25,7 @@ export default {
       urlData: {
         urlRoot: '/',
         urlCourse: '/course',
+        urlMaster: '/master'
       }
     }
   },

@@ -13,7 +13,7 @@
     <compKeepBig/>
     <anim></anim>
     <axiosGet></axiosGet>-->
-    <navigate></navigate>
+    <!-- <navigate></navigate> -->
     <router-view></router-view>
     <!-- 路由出口 -->
     <!-- 路由匹配到的组件将渲染在这里 -->
@@ -33,7 +33,7 @@ import slotParent from './components/slotParent'
 import compKeepBig from './components/compKeepBig'
 import anim from './components/anim'
 import axiosGet from './components/axiosGet'
-import navigate from './components/navigate'
+
 
 export default {
   name: 'App',
@@ -50,7 +50,6 @@ export default {
     compKeepBig,
     anim,
     axiosGet,
-    navigate
   }
 }
 </script>
