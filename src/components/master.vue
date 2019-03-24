@@ -1,6 +1,6 @@
 <template>
   <div>
-    <li>专家</li>
+    <li>专家 {{$route.params.count}}</li>
   </div>
 </template>
 

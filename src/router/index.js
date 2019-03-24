@@ -25,7 +25,7 @@ export default new VueRouter({
             { path: 'python', component: Python },]
     },    
     {
-        path: '/master',
+        path: '/master/:count',
         name:'master',
         component: Master
     }

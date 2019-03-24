@@ -10,8 +10,11 @@
       <li>
         <router-link :to="urlData.urlCourse">课程</router-link>
       </li>
-      <li>
+      <!-- <li>
         <router-link :to="urlData.urlMaster">专家</router-link>
+      </li> -->
+      <li>
+        <router-link :to="{name:'master',params:{count:100}}">专家</router-link>
       </li>
     </ul>
   </div>
