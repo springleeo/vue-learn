@@ -59,4 +59,8 @@ export default {
   margin: 0;
   padding: 0;
 }
+
+.router-link-active{
+  color:dodgerblue;
+}
 </style>

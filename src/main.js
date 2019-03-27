@@ -4,10 +4,12 @@ import Vue from 'vue'
 import App from './App'  //引入组件
 import Axios from 'axios'
 import router from './router'
-
+import { Button, Select } from 'element-ui'
 
 Vue.prototype.$axios = Axios
 Vue.config.productionTip = false //开发时配置暂时可忽略
+Vue.component(Button.name, Button)
+Vue.component(Select.name, Select)
 
 /* eslint-disable no-new */
 new Vue({  //通过new来创建vue实例
